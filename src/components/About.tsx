@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Award, Music, BookOpen, HeartPulse } from 'lucide-react';
-import simonPortrait from '../assets/images/simon_mejias_portrait_1779242442349.png';
+import simonPortrait from '../assets/images/simon_mejias_portrait_new_1779281067350.png';
 
 export default function About() {
   const points = [
@@ -86,7 +86,7 @@ export default function About() {
                 Mi Historia
               </h3>
               <p className="text-sm font-sans text-neutral-300 leading-relaxed font-normal">
-                Nací en Chile rodeado de la sonoridad de guitarras acústicas y música andina, pero pronto descubrí que las fronteras musicales se cruzan con la teoría y la introspección. Tras años de estudios formales, conciertos en teatros y grabaciones de sesión en diversos géneros musicales, me di cuenta de una gran carencia: la educación formal suele ser fría y la autodidacta suele frustrar por falta de técnica limpia.
+                Nací en Barquisimeto - Venezuela, rodeado de la sonoridad de guitarras acústicas y música andina, pero pronto descubrí que las fronteras musicales se cruzan con la teoría y la introspección. Tras años de estudios formales, conciertos en teatros y grabaciones de sesión en diversos géneros musicales, me di cuenta de una gran carencia: la educación formal suele ser fría y la autodidacta suele frustrar por falta de técnica limpia.
               </p>
               <p className="text-sm font-sans text-neutral-300 leading-relaxed font-normal">
                 En 2018 decidí fundar esta academia online para unir el rigor técnico de la guitarra clásica española con las libertades armónicas modernas del Jazz y la rítmica visceral del Rock & Blues. Mi meta es darte las herramientas reales para componer e improvisar de forma libre.
