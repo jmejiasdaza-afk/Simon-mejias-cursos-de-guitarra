@@ -1,0 +1,6 @@
+{
+  "name": "Academia Simón Mejías - Clases de Guitarra",
+  "description": "Aprende a tocar guitarra online con clases magistrales y cursos personalizados de distintos estilos desde Chile para todo el mundo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
