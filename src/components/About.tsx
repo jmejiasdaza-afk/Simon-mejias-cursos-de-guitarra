@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Award, Music, BookOpen, HeartPulse } from 'lucide-react';
-import simonPortrait from '../assets/images/simon_mejias_portrait_new_1779281067350.png';
 
 export default function About() {
   const points = [
@@ -60,11 +59,14 @@ export default function About() {
               <div className="absolute -inset-2 bg-gradient-to-r from-yellow-500/10 to-yellow-600/10 rounded-2xl blur-lg opacity-40 group-hover:opacity-75 transition duration-500" />
               
               <div className="relative bg-[#121620] border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src={simonPortrait}
-                  alt="Simón Mejías con Guitarra Acústica"
-                  className="w-full aspect-square object-cover object-center grayscale drop-shadow-md hover:grayscale-0 transition-all duration-500"
-                  referrerPolicy="no-referrer"
+                <video
+                  src="https://bismrhwimuntpawgrdsa.supabase.co/storage/v1/object/public/VIDEOS%20WEB/simon%20mejias%20falta%201.mp4"
+                  className="w-full aspect-square object-cover object-center drop-shadow-md transition-all duration-500"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  controls
                 />
                 <div className="p-6 bg-gradient-to-t from-black via-black/90 to-black/35">
                   <h4 className="text-lg font-bold text-white font-sans">Simón Mejías</h4>
